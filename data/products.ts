@@ -2,7 +2,7 @@ export const products = [
   {
     id: "ZEYTIN-001",
     name: "Organik Zeytinyağı 1L",
-    brand: "TraceChain Demo",
+    brand: "TraceChain Food",
     status: "Satıldı",
     history: [
       { title: "Üretildi", location: "Balıkesir", date: "02.07.2026" },
@@ -18,7 +18,7 @@ export const products = [
     status: "Teslim Edildi",
     history: [
       { title: "Üretildi", location: "Barcelona, İspanya", date: "01.07.2026" },
-      { title: "Kalite Kontrol", location: "Barcelona, İspanya", date: "02.07.2026" },
+      { title: "Kalite Kontrol", location: "Barcelona", date: "02.07.2026" },
       { title: "Sevk Edildi", location: "Barcelona Havalimanı", date: "03.07.2026" },
       { title: "Türkiye’ye Ulaştı", location: "İstanbul", date: "04.07.2026" },
       { title: "Teslim Edildi", location: "Beşiktaş, İstanbul", date: "05.07.2026" },
@@ -58,6 +58,66 @@ export const products = [
       { title: "Soğuk Depoya Alındı", location: "Basel", date: "01.07.2026" },
       { title: "Soğuk Zincirde Taşındı", location: "Frankfurt", date: "02.07.2026" },
       { title: "Hastaneye Teslim", location: "Ankara", date: "04.07.2026" },
+    ],
+  },
+  {
+    id: "CILEK-006",
+    name: "Organik Çilek Kasası",
+    brand: "TraceChain Fresh",
+    status: "Market Rafında",
+    history: [
+      { title: "Toplandı", location: "Antalya", date: "03.07.2026" },
+      { title: "Soğuk Depoya Alındı", location: "Antalya", date: "03.07.2026" },
+      { title: "Sevk Edildi", location: "Antalya", date: "04.07.2026" },
+      { title: "Market Rafına Çıktı", location: "İstanbul", date: "05.07.2026" },
+    ],
+  },
+  {
+    id: "SAAT-007",
+    name: "Limitli Seri Akıllı Saat",
+    brand: "TraceChain Tech",
+    status: "Satışta",
+    history: [
+      { title: "Üretildi", location: "Shenzhen, Çin", date: "25.06.2026" },
+      { title: "Test Edildi", location: "Shenzhen", date: "27.06.2026" },
+      { title: "Avrupa Deposu", location: "Berlin, Almanya", date: "01.07.2026" },
+      { title: "Satış Noktasına Ulaştı", location: "İstanbul", date: "06.07.2026" },
+    ],
+  },
+  {
+    id: "KITAP-008",
+    name: "İmzalı Koleksiyon Kitabı",
+    brand: "TraceChain Publishing",
+    status: "Teslim Edildi",
+    history: [
+      { title: "Basım Tamamlandı", location: "Ankara", date: "01.07.2026" },
+      { title: "İmzalandı", location: "Ankara", date: "02.07.2026" },
+      { title: "Kargoya Verildi", location: "Ankara", date: "03.07.2026" },
+      { title: "Teslim Edildi", location: "İzmir", date: "04.07.2026" },
+    ],
+  },
+  {
+    id: "PARFUM-009",
+    name: "Fransız Parfüm 100ml",
+    brand: "TraceChain Beauty",
+    status: "Gümrükten Geçti",
+    history: [
+      { title: "Üretildi", location: "Grasse, Fransa", date: "29.06.2026" },
+      { title: "Kalite Onayı", location: "Paris, Fransa", date: "30.06.2026" },
+      { title: "Sevk Edildi", location: "Paris", date: "02.07.2026" },
+      { title: "Gümrükten Geçti", location: "İstanbul", date: "05.07.2026" },
+    ],
+  },
+  {
+    id: "BAL-010",
+    name: "Doğal Çam Balı 850g",
+    brand: "TraceChain Food",
+    status: "Satıldı",
+    history: [
+      { title: "Hasat Edildi", location: "Muğla", date: "01.07.2026" },
+      { title: "Analiz Edildi", location: "Muğla Laboratuvarı", date: "02.07.2026" },
+      { title: "Paketlendi", location: "Muğla", date: "03.07.2026" },
+      { title: "Satıldı", location: "Bursa", date: "06.07.2026" },
     ],
   },
 ];
